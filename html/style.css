@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #ffffff;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 1px;
+  clear: both;
+  border: .1px solid black;
+  border-top: ;
+  border-left: ;
+  border-right: ;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  color: #2a2a2a;
+}
+
+p {
+  font-family: sans-serif;
+  color: #2a2a2a;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+body > * {
+  background-color: white;
+  padding: 1%;
+}
+
+main {
+  display: flex;
+}
+
+.resize {
+    width: 90px;
+    height: auto;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#main-wrap {
+    overflow: hidden;
+	border: .1px solid black;
+    border-top: none;
+	padding-bottom: 100px;
+}
+
+#sidebar {
+    float: left;
+    width: 40%;
+}
+
+#content-wrap {
+    float: right;
+    width: 60%;
+}
+
+.resizepicture {
+  width: 500px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
